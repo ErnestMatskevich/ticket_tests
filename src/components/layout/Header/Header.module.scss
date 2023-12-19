@@ -1,0 +1,25 @@
+.appbar {
+  width: auto !important;
+  background: linear-gradient(#cddc39 0%, #9e9d24 100%) !important;
+  height: 60px;
+
+  // position: relative !important;
+  // z-index: 1300;
+  // margin-left: 250px;
+
+  &.hidden {
+    display: none;
+  }
+}
+
+.logo {
+  vertical-align: middle;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.icon {
+  color: black;
+  font-size: 40px;
+}
